@@ -1,0 +1,10 @@
+body {
+  font-family: monospace; }
+  body .header {
+    width: 20%;
+    float: left; }
+  body .projects {
+    width: 60%;
+    float: left; }
+    body .projects .project .introduction, body .projects .project .full, body .projects .project .links {
+      display: none; }

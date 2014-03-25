@@ -17,7 +17,7 @@
 
 
 compile '/stylesheet/' do
-  filter :sass, :syntax => :scss
+  filter :sass, :syntax => :sass
 end
 compile '/xander/' do
     #nothing
