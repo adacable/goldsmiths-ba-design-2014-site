@@ -1,0 +1,27 @@
+%article
+    %img.main{:src => "projName_axb.jpg",
+        :alt => project.attributes[:imageAlt],
+        :data => {:src0 => "projName_axb.jpg",
+            :src1 => "projName_2ax2b.jpg", 
+            :src2 => "projName3ax3b.jpg",
+            :src3 => "projName4ax4b.jpg",
+            :src4 => "projName5ax5b.jpg",
+            :src5 => "projName6ax6b.jpg"},
+    }
+    %h1.title
+        %a{:href => project.identifier}
+            =project.attributes[:projectName]
+    %h2.author
+        =project.attributes[:designer]
+    %section.introduction
+        =project.attributes[:introdution]
+    %section.full
+        =project.raw_content
+    -if project.attributes[:links]
+        %section.links
+            %nav
+                %ul
+                    -project.attributes[:links][0..2].each do |link|
+                        %li
+                            %a{:href => link[:Location]}
+                                =link[:text]

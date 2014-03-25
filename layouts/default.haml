@@ -1,0 +1,28 @@
+!!!
+%html
+    %head
+        %meta{:charset => "utf-8"}
+        %title
+            M A T T E R - Goldsmiths BA design 2014
+    %body
+        .header
+            %h1{:style => "writing-mode: tb-rl;"}
+                matter
+            %h2
+                %a{:href => "/"}
+                    Goldsmiths
+                    BA Design Show 2014
+            %dl.dates#dates
+                %dt
+                    Industry and press view
+                %dd
+                    28.05.2014 18-22.00
+                %dt
+                    Public Opening
+                %dd
+                    29.05.2014 18-22.00
+        %div.projects
+            -if @item.attributes[:kind] == "article"
+                =render "project", :project => @item
+            -else 
+                =yield
