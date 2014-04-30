@@ -2,3 +2,11 @@ body {
   text-align: center;
   font-family: monospace;
   padding-top: 5%; }
+  body ul li {
+    list-style: none; }
+    body ul li dl dt, body ul li dl dd {
+      margin: 0; }
+    body ul li dl dt {
+      font-weight: bold; }
+    body ul li.address {
+      white-space: pre-line; }
