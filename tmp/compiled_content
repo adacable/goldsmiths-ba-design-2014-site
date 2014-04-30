@@ -1,5 +1,5 @@
 {:	data{
-I"/:ET{:default{	:	lastI"\<!DOCTYPE html>
+I"/:ET{:default{	:	lastI"˙!<!DOCTYPE html>
 <html>
   <head>
     <meta charset='utf-8'>
@@ -10,10 +10,10 @@ I"/:ET{:default{	:	lastI"\<!DOCTYPE html>
   </head>
   <body>
     <div class='header'>
-      <h1 style='writing-mode: tb-rl;'>
-        matter
+      <h1>
+        MAT<span class=longT aria-hidden:true >T</span>ER
       </h1>
-      <h2>
+      <h2 class='description'>
         <a href='/'>
           Goldsmiths
           BA Design Show 2014
@@ -33,6 +33,23 @@ I"/:ET{:default{	:	lastI"\<!DOCTYPE html>
           29.05.2014 18-22.00
         </dd>
       </dl>
+      <div class='location'>
+        The Old Truman Brewery
+        <br>
+        91-95 Brick Lane
+        <br>
+        London
+        <br>
+        E1 6QL
+        <br>
+      </div>
+      <nav class='navigation'>
+        <ul>
+          <a href='/about/'>
+            about
+          </a>
+        </ul>
+      </nav>
     </div>
     <div class='projects'>
       <article class='project'>
@@ -43,19 +60,31 @@ I"/:ET{:default{	:	lastI"\<!DOCTYPE html>
           </a>
         </h1>
         <h2 class='author'>
-          a. n. other
+          ‚Äúdfg‚Äù
         </h2>
         <section class='introduction'>
           Pickled fap keytar American Apparel, Pitchfork drinking vinegar leggings. Cred farm-to-table slow-carb, 8-bit Truffaut Helvetica gluten-free VHS art party XOXO. Etsy ethnic
         </section>
         <section class='full'>
-          Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui. Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
+          paragraph 1 Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui.
+          
+          paragraph 2 Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
         </section>
         <section class='links'>
           <nav>
             <ul>
               <li>
                 <a href='mailto:a@n.other'>
+                  Email them
+                </a>
+              </li>
+              <li>
+                <a href='http://their.website'>
+                  Email them
+                </a>
+              </li>
+              <li>
+                <a href='http://their.other.website'>
                   Email them
                 </a>
               </li>
@@ -124,7 +153,7 @@ I"/:ET{:default{	:	lastI"\<!DOCTYPE html>
 </html>
 ;T:rawI"L-articles.each do |project|
     =render "project", :project => project
-;T:preI"s<article class='project'>
+;T:preI"n<article class='project'>
   <img class='main' data-src0='projName_axb.jpg' data-src1='projName_2ax2b.jpg' data-src2='projName3ax3b.jpg' data-src3='projName4ax4b.jpg' data-src4='projName5ax5b.jpg' data-src5='projName6ax6b.jpg' src='projName_axb.jpg'>
   <h1 class='title'>
     <a href='/1/'>
@@ -132,19 +161,31 @@ I"/:ET{:default{	:	lastI"\<!DOCTYPE html>
     </a>
   </h1>
   <h2 class='author'>
-    a. n. other
+    ‚Äúdfg‚Äù
   </h2>
   <section class='introduction'>
     Pickled fap keytar American Apparel, Pitchfork drinking vinegar leggings. Cred farm-to-table slow-carb, 8-bit Truffaut Helvetica gluten-free VHS art party XOXO. Etsy ethnic
   </section>
   <section class='full'>
-    Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui. Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
+    paragraph 1 Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui.
+    
+    paragraph 2 Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
   </section>
   <section class='links'>
     <nav>
       <ul>
         <li>
           <a href='mailto:a@n.other'>
+            Email them
+          </a>
+        </li>
+        <li>
+          <a href='http://their.website'>
+            Email them
+          </a>
+        </li>
+        <li>
+          <a href='http://their.other.website'>
             Email them
           </a>
         </li>
@@ -209,7 +250,7 @@ I"/:ET{:default{	:	lastI"\<!DOCTYPE html>
   </section>
 </article>
 ;T:	post@
-I"/1/;T{;{	;I"j<!DOCTYPE html>
+I"/1/;T{;{	;I"<!DOCTYPE html>
 <html>
   <head>
     <meta charset='utf-8'>
@@ -220,10 +261,10 @@ I"/1/;T{;{	;I"j<!DOCTYPE html>
   </head>
   <body>
     <div class='header'>
-      <h1 style='writing-mode: tb-rl;'>
-        matter
+      <h1>
+        MAT<span class=longT aria-hidden:true >T</span>ER
       </h1>
-      <h2>
+      <h2 class='description'>
         <a href='/'>
           Goldsmiths
           BA Design Show 2014
@@ -243,6 +284,23 @@ I"/1/;T{;{	;I"j<!DOCTYPE html>
           29.05.2014 18-22.00
         </dd>
       </dl>
+      <div class='location'>
+        The Old Truman Brewery
+        <br>
+        91-95 Brick Lane
+        <br>
+        London
+        <br>
+        E1 6QL
+        <br>
+      </div>
+      <nav class='navigation'>
+        <ul>
+          <a href='/about/'>
+            about
+          </a>
+        </ul>
+      </nav>
     </div>
     <div class='projects'>
       <article class='project'>
@@ -253,19 +311,31 @@ I"/1/;T{;{	;I"j<!DOCTYPE html>
           </a>
         </h1>
         <h2 class='author'>
-          a. n. other
+          ‚Äúdfg‚Äù
         </h2>
         <section class='introduction'>
           Pickled fap keytar American Apparel, Pitchfork drinking vinegar leggings. Cred farm-to-table slow-carb, 8-bit Truffaut Helvetica gluten-free VHS art party XOXO. Etsy ethnic
         </section>
         <section class='full'>
-          Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui. Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
+          paragraph 1 Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui.
+          
+          paragraph 2 Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
         </section>
         <section class='links'>
           <nav>
             <ul>
               <li>
                 <a href='mailto:a@n.other'>
+                  Email them
+                </a>
+              </li>
+              <li>
+                <a href='http://their.website'>
+                  Email them
+                </a>
+              </li>
+              <li>
+                <a href='http://their.other.website'>
                   Email them
                 </a>
               </li>
@@ -276,9 +346,12 @@ I"/1/;T{;{	;I"j<!DOCTYPE html>
     </div>
   </body>
 </html>
-;T;	I"éBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui. Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.;T;
-I"èBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui. Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
-;T;@I"/2/;T{;{	;I"j<!DOCTYPE html>
+;T;	I"ßparagraph 1 Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui.
+
+paragraph 2 Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.;T;
+I"ßparagraph 1 Brunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui.
+paragraph 2 Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
+;T;@I"/2/;T{;{	;I"≈<!DOCTYPE html>
 <html>
   <head>
     <meta charset='utf-8'>
@@ -289,10 +362,10 @@ I"èBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa
   </head>
   <body>
     <div class='header'>
-      <h1 style='writing-mode: tb-rl;'>
-        matter
+      <h1>
+        MAT<span class=longT aria-hidden:true >T</span>ER
       </h1>
-      <h2>
+      <h2 class='description'>
         <a href='/'>
           Goldsmiths
           BA Design Show 2014
@@ -312,6 +385,23 @@ I"èBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa
           29.05.2014 18-22.00
         </dd>
       </dl>
+      <div class='location'>
+        The Old Truman Brewery
+        <br>
+        91-95 Brick Lane
+        <br>
+        London
+        <br>
+        E1 6QL
+        <br>
+      </div>
+      <nav class='navigation'>
+        <ul>
+          <a href='/about/'>
+            about
+          </a>
+        </ul>
+      </nav>
     </div>
     <div class='projects'>
       <article class='project'>
@@ -347,29 +437,88 @@ I"èBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa
 </html>
 ;T;	I"éBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui. Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.;T;
 I"èBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa PBR banh mi Vice squid cred gastropub. Put a bird on it actually semiotics chambray, keffiyeh umami Cosby sweater Thundercats. Shabby chic Cosby sweater Pinterest leggings aesthetic ennui. Try-hard banjo brunch street art raw denim. Ennui Portland 3 wolf moon gluten-free meh, cred slow-carb plaid semiotics leggings ugh 90's pug. American Apparel banjo bitters ethnic mixtape Wes Anderson vinyl. Sustainable quinoa mlkshk plaid, freegan Vice fixie Williamsburg whatever skateboard lomo leggings keffiyeh fingerstache art party. Organic wolf four loko PBRB, sartorial gluten-free artisan quinoa kogi ethical vinyl Marfa. Flexitarian High Life disrupt selfies, drinking vinegar pour-over raw denim roof party quinoa pickled Pinterest salvia plaid kale chips fanny pack. XOXO Etsy disrupt Thundercats fixie. Before they sold out fanny pack chillwave, distillery chia Godard occupy. Shoreditch hashtag Blue Bottle, Carles whatever blog bespoke craft beer banh mi. Wolf Echo Park plaid Wes Anderson, Thundercats Helvetica flannel gentrify. Mixtape fanny pack meggings church-key, irony flannel McSweeney's banjo stumptown Portland Odd Future slow-carb ennui blog. Irony DIY dreamcatcher Vice sustainable bespoke banh mi pork belly, authentic scenester. Aesthetic mlkshk Shoreditch asymmetrical four loko pickled, put a bird on it XOXO Truffaut photo.
-;T;@I"/stylesheet/;T{;{;I"body {
+;T;@I"/stylesheet/;T{;{;I"Bbody {
   font-family: monospace; }
   body .header {
     width: 20%;
-    float: left; }
+    margin: 5em 2em 0 2em;
+    float: right; }
+    body .header h1 {
+      width: 2em;
+      letter-spacing: 3em;
+      word-wrap: break-word; }
+      body .header h1 .longT {
+        height: 34em; }
+    body .header h2.description {
+      padding-bottom: 2em; }
+    body .header dl.dates {
+      padding-bottom: 1em; }
+      body .header dl.dates dd {
+        padding-bottom: 1em; }
+    body .header .location {
+      padding-bottom: 3em; }
   body .projects {
-    width: 60%;
-    float: left; }
-    body .projects .project .introduction, body .projects .project .full, body .projects .project .links {
-      display: none; }
-;T;	I"ﬁbody
+    margin: 5em 10%;
+    width: 60%; }
+    body .projects .project {
+      width: 33.33333%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      float: left; }
+      body .projects .project .title {
+        text-align: center; }
+      body .projects .project .author {
+        text-align: center; }
+      body .projects .project img.main {
+        width: 100%;
+        z-index: -1;
+        position: absolute; }
+      body .projects .project .introduction, body .projects .project .full, body .projects .project .links {
+        display: none; }
+;T;	I"€body
     font-family: monospace
     .header
         width: 20%
-        float: left
+        margin: 5em 2em 0 2em
+        float: right 
+        h1
+            width: 2em
+            letter-spacing: 3em
+            word-wrap: break-word
+            .longT
+                height: 34em
+
+        h2.description
+            padding-bottom: 2em
+        dl.dates
+            padding-bottom: 1em
+            dd
+                padding-bottom: 1em
+        .location
+            padding-bottom: 3em
     .projects
+        margin: 5em 10%
         width: 60%
-        float: left
+        float:right 
         .project
+            width: 33.333333333%
+            margin: 0
+            padding: 0
+            position: relative
+            float: left
+            .title
+                text-align: center
+            .author
+                text-align: center
+            img.main
+                width: 100%
+                z-index: -1
+                position: absolute
             .introduction,.full,.links
                 display: none
 ;T;
-@I"/3/;T{;{	;I"j<!DOCTYPE html>
+@I"/3/;T{;{	;I"≈<!DOCTYPE html>
 <html>
   <head>
     <meta charset='utf-8'>
@@ -380,10 +529,10 @@ I"èBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa
   </head>
   <body>
     <div class='header'>
-      <h1 style='writing-mode: tb-rl;'>
-        matter
+      <h1>
+        MAT<span class=longT aria-hidden:true >T</span>ER
       </h1>
-      <h2>
+      <h2 class='description'>
         <a href='/'>
           Goldsmiths
           BA Design Show 2014
@@ -403,6 +552,23 @@ I"èBrunch fixie tousled scenester Neutra gentrify, keytar master cleanse Marfa
           29.05.2014 18-22.00
         </dd>
       </dl>
+      <div class='location'>
+        The Old Truman Brewery
+        <br>
+        91-95 Brick Lane
+        <br>
+        London
+        <br>
+        E1 6QL
+        <br>
+      </div>
+      <nav class='navigation'>
+        <ul>
+          <a href='/about/'>
+            about
+          </a>
+        </ul>
+      </nav>
     </div>
     <div class='projects'>
       <article class='project'>

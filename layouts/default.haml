@@ -7,9 +7,10 @@
         %link(rel="stylesheet" type="text/css" href="/style.css")
     %body
         .header
-            %h1{:style => "writing-mode: tb-rl;"}
-                matter
-            %h2
+            %h1
+                :plain 
+                    MAT<span class=longT aria-hidden:true >T</span>ER
+            %h2.description
                 %a{:href => "/"}
                     Goldsmiths
                     BA Design Show 2014
@@ -22,6 +23,19 @@
                     Public Opening
                 %dd
                     29.05.2014 18-22.00
+            .location
+                The Old Truman Brewery
+                %br
+                91-95 Brick Lane
+                %br
+                London
+                %br
+                E1 6QL
+                %br
+            %nav.navigation
+                %ul
+                    %a{:href => "/about/"}
+                        about
         %div.projects
             -if @item.attributes[:kind] == "article"
                 =render "project", :project => @item

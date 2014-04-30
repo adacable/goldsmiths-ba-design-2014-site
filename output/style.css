@@ -2,9 +2,38 @@ body {
   font-family: monospace; }
   body .header {
     width: 20%;
-    float: left; }
+    margin: 5em 2em 0 2em;
+    float: right; }
+    body .header h1 {
+      width: 2em;
+      letter-spacing: 3em;
+      word-wrap: break-word; }
+      body .header h1 .longT {
+        height: 34em; }
+    body .header h2.description {
+      padding-bottom: 2em; }
+    body .header dl.dates {
+      padding-bottom: 1em; }
+      body .header dl.dates dd {
+        padding-bottom: 1em; }
+    body .header .location {
+      padding-bottom: 3em; }
   body .projects {
-    width: 60%;
-    float: left; }
-    body .projects .project .introduction, body .projects .project .full, body .projects .project .links {
-      display: none; }
+    margin: 5em 10%;
+    width: 60%; }
+    body .projects .project {
+      width: 33.33333%;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      float: left; }
+      body .projects .project .title {
+        text-align: center; }
+      body .projects .project .author {
+        text-align: center; }
+      body .projects .project img.main {
+        width: 100%;
+        z-index: -1;
+        position: absolute; }
+      body .projects .project .introduction, body .projects .project .full, body .projects .project .links {
+        display: none; }

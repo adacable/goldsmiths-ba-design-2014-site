@@ -2,10 +2,40 @@ body
     font-family: monospace
     .header
         width: 20%
-        float: left
+        margin: 5em 2em 0 2em
+        float: right 
+        h1
+            width: 2em
+            letter-spacing: 3em
+            word-wrap: break-word
+            .longT
+                height: 34em
+
+        h2.description
+            padding-bottom: 2em
+        dl.dates
+            padding-bottom: 1em
+            dd
+                padding-bottom: 1em
+        .location
+            padding-bottom: 3em
     .projects
+        margin: 5em 10%
         width: 60%
-        float: left
+        float:right 
         .project
+            width: 33.333333333%
+            margin: 0
+            padding: 0
+            position: relative
+            float: left
+            .title
+                text-align: center
+            .author
+                text-align: center
+            img.main
+                width: 100%
+                z-index: -1
+                position: absolute
             .introduction,.full,.links
                 display: none
