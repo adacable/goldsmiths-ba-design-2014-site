@@ -1,29 +1,37 @@
 @import "_reset.scss"
+@import "_fonts.scss"
 a
-    color: black
+    color: white
 body
-    text-align: center
-    font-family: monospace
+    background-color: black
+    color: white
+    font-family: monostena
     padding-top: 5%
     font-size: 1.5em
     line-height: 140%
-    h1,h2
-        margin: 0
-    h1
-        font-size: 2.8899999999em
-        line-height: 140%
-        font-weight: bold
-    h2
-        font-size: 1.57em
-        line-height: 140%
-    ul
-        li
-            list-style: none
-            dl
-                dt,dd
-                    margin: 0
-                dt
-                    font-weight: bold
-            &.address
-                white-space: pre-line 
+    #wrap
+        max-width: 30em
+        margin: 0 auto
+        h1,h2
+            margin: 0
+        h1
+            font-family: apercubold
+            letter-spacing: 0.2em
+            font-size: 2.8899999999em
+            line-height: 100%
+            font-weight: bold
+        h2
+            font-size: 1.0em
+            line-height: 140%
+            padding-bottom: 1em
+        ul
+            li
+                list-style: none
+                dl
+                    dt,dd
+                        margin: 0
+                    dt
+                        text-transform: uppercase
+                &.address
+                    white-space: pre-line 
 
