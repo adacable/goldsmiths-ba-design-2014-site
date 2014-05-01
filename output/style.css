@@ -45,6 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+a {
+  color: black; }
+
 body {
   text-align: center;
   font-family: monospace;
