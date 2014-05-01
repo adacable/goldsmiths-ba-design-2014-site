@@ -76,11 +76,9 @@ table {
   font-style: normal; }
 
 a {
-  color: white; }
+  color: black; }
 
 body {
-  background-color: black;
-  color: white;
   font-family: monostena;
   padding-top: 5%;
   font-size: 1.5em;
@@ -97,7 +95,7 @@ body {
       line-height: 100%;
       font-weight: bold; }
     body #wrap h2 {
-      font-size: 1.4em;
+      font-size: 1em;
       line-height: 140%;
       padding-bottom: 1em; }
     body #wrap ul li {
